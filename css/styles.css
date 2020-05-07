@@ -1,0 +1,97 @@
+/* цвет основного текста #000000 */
+/* вторичный цвет текста  rgba(0, 0, 0, 0.8);
+ */
+/* белый #FFFFFF  */
+/* акцент #18A0FB */
+/* вторичный цвет фона #F5F5F5; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--title-text-color);
+}
+A {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+/* Лого сайта */
+
+.site-logo {
+  color: var(--title-text-color);
+}
+.site-logo span {
+  color: var(--accent-color);
+}
+/* Список навигации страниц сайта */
+.site-list .list-item {
+  color: var(--title-text-color);
+}
+.site-list .list-item:hover,
+.site-list .list-item:focus {
+  color: var(--accent-color);
+}
+/* Список контактов с представителями сайта */
+.site-contacts .contacts-item {
+  color: var(--primary-text-color);
+}
+.site-contacts .contacts-item:hover,
+.site-contacts .contacts-item:focus {
+  color: var(--accent-color);
+}
+/* Герой */
+.hero-title {
+  color: var(--primary-white-color);
+}
+.hero-link {
+  color: var(--primary-white-color);
+}
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--accent-color);
+}
+/* ПРеимущества */
+.advantages-text {
+  color: var(--primary-text-color);
+}
+/* Чем мы занимаемся */
+.we-do-item {
+  color: var(--primary-white-color);
+}
+/* Наша команда */
+.member-specialty {
+  color: var(--primary-text-color);
+}
+/* Ссылки на социальные сети */
+.social-networks-item {
+  color: var(--primary-text-color);
+}
+.social-networks-item:hover,
+.social-networks-item:focus {
+  color: var(--accent-color);
+}
+i
+
+/*Страница портфоли main */
+.choice-list ,
+.choice-item {
+  color: var(--title-text-color);
+}
+
+.portfolio-description {
+  color: var(--primary-text-color);
+}
+.portfolio-text {
+  color: var(--primary-white-color);
+}
+.site-list .active-page:active {
+  color: red;
+}
