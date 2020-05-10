@@ -149,6 +149,9 @@ li {
 }
 
 /* адрес */
+.site-logo .studio-color {
+  color: var(--primary-white-color);
+}
 
 .address {
   font-style: normal;
