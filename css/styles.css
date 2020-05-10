@@ -16,7 +16,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-A {
+a {
   text-decoration: none;
 }
 li {
@@ -136,7 +136,7 @@ li {
 .member-specialty {
   color: var(--primary-text-color);
 
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -161,18 +161,27 @@ li {
   color: var(--primary-white-color);
 }
 .footnote {
-  color: var(--primary-text-color);
-
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.4);
+}
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+.footer-contacts:focus,
+.footer-contacts:hover {
+  color: var(--accent-color);
 }
 
 /*Страница портфоли main */
 
 button {
   background-color: var(--button-primary-color);
-
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -209,6 +218,5 @@ button:focus {
 }
 /* Подсвечивание активнрй страницы */
 .list-item.active-page {
-  background-color: var(--accent-color);
   color: var(--accent-color);
 }
