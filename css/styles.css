@@ -43,6 +43,10 @@ li {
 .site-logo span {
   color: var(--accent-color);
 }
+/* адрес относиться к логотипу футера*/
+.site-logo .studio-color {
+  color: var(--primary-white-color);
+}
 
 /* Список навигации страниц сайта */
 .site-list .list-item {
@@ -61,7 +65,7 @@ li {
 /* Список контактов с представителями сайта */
 .site-contacts .contacts-item {
   color: var(--primary-text-color);
-
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
@@ -148,26 +152,19 @@ li {
   color: var(--accent-color);
 }
 
-/* адрес */
-.site-logo .studio-color {
-  color: var(--primary-white-color);
-}
-
 .address {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
-.address p {
+.street {
   color: var(--primary-white-color);
-}
-.footnote {
   font-weight: 400;
-  font-size: 12px;
-  line-height: 2;
-  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  line-height: 1.71;
 }
+
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -179,6 +176,12 @@ li {
   color: var(--accent-color);
 }
 
+.footnote {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.4);
+}
 /*Страница портфоли main */
 
 button {
@@ -218,6 +221,7 @@ button:focus {
   font-size: 18px;
   line-height: 1.56;
 }
+
 /* Подсвечивание активнрй страницы */
 .list-item.active-page {
   color: var(--accent-color);
